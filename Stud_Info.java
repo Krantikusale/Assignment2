@@ -29,7 +29,7 @@ public class Stud_Info {
 			String address = sc.next();
 
 			System.out.println("Enter status ");
-			String status = sc.next();
+			boolean status = sc.nextBoolean();
 
 			data[a] = "Name : " + name + ", Email : " + email + ", Phone : " + phone + ", Address : " + address
 					+ ", Status : " + status;
